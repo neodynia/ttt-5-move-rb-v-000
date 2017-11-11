@@ -1,5 +1,6 @@
 def greeting
   puts "Welcome to Tic Tac Toe!"
+  puts "Where would you like to go?"
 end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
