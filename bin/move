@@ -4,10 +4,8 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 
-
-greeting
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-puts = "Where would you like to go?"
+greeting
 index = input_to_index(gets.strip)
 move(board, index, char="X")
 display_board(board)
